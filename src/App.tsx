@@ -1,9 +1,14 @@
-import './App.css'
+import "./App.css";
+import ScreenBoard from "./components/ScreenBoard";
+import NumbersBoard from "./components/NumbersBoard";
 
 function App() {
   return (
-    <h1>Hello World!</h1>
-  )
+    <>
+      <ScreenBoard />
+      <NumbersBoard />
+    </>
+  );
 }
 
-export default App
+export default App;
