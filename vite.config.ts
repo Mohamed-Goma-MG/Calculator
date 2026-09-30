@@ -11,11 +11,7 @@ export default defineConfig({
   plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
   resolve: {
     alias: {
-      "@/assets": path.resolve(__dirname, "./src/contexts"),
-      "@/components": path.resolve(__dirname, "./src/components"),
-      "@/contexts": path.resolve(__dirname, "./src/contexts"),
-      "@/reducers": path.resolve(__dirname, "./src/reducers"),
-      "@/scripts": path.resolve(__dirname, "./src/scripts"),
+      "@": path.resolve(__dirname, "src"),
     },
   },
 });
