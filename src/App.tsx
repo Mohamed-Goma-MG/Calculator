@@ -1,9 +1,9 @@
 import "./App.css";
 
-import { ScreenProvider } from "./contexts/ScreenProvider";
+import { ScreenProvider } from "@/contexts/ScreenProvider";
 
-import ScreenBoard from "./components/ScreenBoard";
-import NumbersBoard from "./components/NumbersBoard";
+import ScreenBoard from "@/components/ScreenBoard";
+import NumbersBoard from "@/components/NumbersBoard";
 
 function App() {
   return (
