@@ -1,16 +1,16 @@
 import "./App.css";
 
-import { ScreenProvider } from "@/contexts/ScreenProvider";
+import ScreenProvider from "@/contexts/ScreenProvider";
 
-import ScreenBoard from "@/components/ScreenBoard";
-import NumbersBoard from "@/components/NumbersBoard";
+import ScreenPad from "@/components/ScreenPad";
+import NumPad from "@/components/NumPad";
 
 function App() {
   return (
     <>
       <ScreenProvider>
-        <ScreenBoard />
-        <NumbersBoard />
+        <ScreenPad />
+        <NumPad />
       </ScreenProvider>
     </>
   );
